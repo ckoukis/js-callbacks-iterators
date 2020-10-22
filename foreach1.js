@@ -9,3 +9,7 @@
 const foods = ["pizza", "tacos", "ice cream", "sushi"];
 
 // your code here
+
+foods.filter (function(food){
+    console.log(`I like ${food}`)
+})
